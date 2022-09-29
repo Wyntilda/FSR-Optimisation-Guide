@@ -1,2 +1,9 @@
 # FSR-Optimisation-Guide
 (WIP!) Guide for system and game optimisations for speedrunning the Fable series
+
+#### Purpose of this guide
+The info in this guide is provided on the assumption that your goal is to put together and optimise a PC solely for the purpose of speedrunning the Fable games, and that you have a separate system (or at least separate OS install) for other tasks. This is not the case for everyone. It is left up to the reader to determine what is best for their system based on their personal use case. It is not recommended to blindly follow PC optimisation guides on the internet, including this one. This guide will provide information pertaining to the most accessible changes that will make a significant difference in your experience, but for any major OS tweaking or intricate BIOS tuning, I recommend you do your own research and familiarise yourself with the quirks and benefits of your chosen platform.
+
+This guide will not shave minutes off your run. This guide will not guarantee you a world record. Patience, practice, and a good mindset will get you further than your choice of hardware or your BIOS settings. When latency tuning is discussed in gaming communities, people are often quick to point to hypothetical esports pros running on poorly optimised setups. The same goes for Fable; you can grind and improve your runs on any old laptop with a Core i3 processor. This guide cannot change your mindset. It will not make you better than anyone else, but it will make you better when measured against yourself.
+
+The purpose of this guide is to cultivate a consistent, smooth, and predictable system for running the Fable games. If your PB is dependent on how well you time your rolls or how good your menuing is, then the info provided here will aid you in having a more consistent and fun experience.
