@@ -17,7 +17,7 @@ Antialiasing adds unnecessary overhead. If you insist on using it because you wa
 
 Mesh detail should always be set to max, as it affects render distance. This is important in long range attack scenarios such as Orchard Farm, Jackshit, and the Ice Troll (mostly Orchard Farm, to my knowledge).
 
-Everything else, optimally, should be low/off. Even with how well this game runs on basically any hardware in the last 10 years, your x% lows will objectively benefit from doing less work. Most runners on modern hardware don't care, so it's up to you how important that is. Do some testing and see what you're comfortable with.
+Everything else, optimally, should be low/off. Even with how well this game runs on basically any hardware in the last 10 years, your x% lows will objectively benefit from doing less work. Most runners on modern hardware don't care, so it's up to you how important that is. Do some testing and see what you're comfortable with. If you are consistently hitting above your target refresh rate 100% of the time, you may have a bit more wiggle room, but that's harder to achieve than you'd think.
 
 On Nvidia GPUs at least since Kepler (600 series onwards) and likely Fermi (400 series onwards), Fable experiences a flickering bug with the glow shader that's active on Effects settings past 1.
 
