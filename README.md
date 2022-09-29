@@ -1,4 +1,4 @@
-# FSR-Optimisation-Guide
+# Fable Speedrunning Optimisation Guide
 (WIP!) Guide for system and game optimisations for speedrunning the Fable series
 
 #### Purpose of this guide
