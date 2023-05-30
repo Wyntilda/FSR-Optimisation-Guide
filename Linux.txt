@@ -1,5 +1,6 @@
 I'm doing testing on Arch Linux with KDE since that's what the cool kids use these days and should provide a familar environment for runners used to Windows.
-I used archinstall and it seems fine. Very easy to use installer. Make yourself able to use sudo. Add extra and multilib repos.
+I used archinstall and it seems fine. Very easy to use installer.
+Make yourself able to use sudo. Add extra and multilib repos. linux-zen kernel is low-latency. I use XFS for filesystem, personally; ext4 is fine, too.
 I'm not gonna make this a guide on how to install Arch or any Linux OS; there are plenty of guides that do that well already.
 Keep in mind how current your hardware is. If your hardware is >3 years old, you've less to worry about. Check for compatibility. Rolling release distros (like Arch) are more updated, but have more updates (do note, however, that these aren't even half as tedious as on Windows).
 
@@ -27,3 +28,9 @@ Proton 7.0-6 -
 
 
 DXVK 2.0+ / Proton 8.0+ requires Vulkan 1.3 capable drivers, hardware, and Wine version (you probably don't have to worry about the latter unless you know what you're doing).
+
+
+For recommended distributions, I'm choosing these based on popularity and my personal experience with them. Being able to look up things and find answers is top priority, really. If you're already a Linux user, use what's most comfortable for you.
+Recommended distros:
+Debian - Stable, less updates, consistent performance; may need to backport 6.1 kernel on Debian 11 for recent hardware support.
+Arch - Extremely frequent updates, better hardware support out of the box, AUR can be confusing for new users
