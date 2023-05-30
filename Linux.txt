@@ -42,3 +42,6 @@ Lutris notes:
 Game info: Runner is steam
 Game options: DRM free mode on
 System options: Gamescope > Enabled & Windowed (1024x768), CPU > Restrict number of cores used (1-2)
+App ID is 204030 for TLC
+
+Lutris with Wine runner seems weirdly difficult to configure and run properly, along with local (non-Steam) Proton. Until I figure out how to do this smoothly and accessibly, I think just launching through Steam is the way to go. The most reliable way to run TLC through Lutris is to run it through Steam, with DRM free mode off, which doesn't really do us much good.
