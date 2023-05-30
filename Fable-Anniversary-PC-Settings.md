@@ -1,4 +1,4 @@
-Disable modding DLC in Steam via Properties > DLC. It's twice the size of the base game and you don't need it unless you're planning on launching the Unreal editor yourself. Even if you're just applying a mod, all you need is the -NOSEEKFREELOADING launch option.<br>
+Disable modding DLC in Steam via Properties > DLC. It's twice the size of the base game and you don't need it unless you're planning on launching the Unreal editor yourself. Even if you're just applying a mod, all you need is the `-NOSEEKFREELOADING` launch option.<br>
 Add `-nomovies` to launch options in Steam.<br>
 Unlike TLC, Anniversary does not like being launched without Steam.<br>
 <br>
