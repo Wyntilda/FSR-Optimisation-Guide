@@ -41,7 +41,7 @@ Corsair RM850x
 Corsair HX1200
 Corsair RM550
 I promise I'm not shilling Corsair, these are just good; need more details here
-HEADROOM IS GOOD. YOUR PSU IS AT ITS MOST EFFICIENT AT 1/3 LOAD. TRANSIENTS (short power spikes well above standard power consumption) HAPPEN.
+30-50% HEADROOM IS GOOD. YOUR PSU IS AT ITS MOST EFFICIENT AT 1/3 LOAD. TRANSIENTS (short power spikes well above standard power consumption) HAPPEN.
 
 **Mice**
 MMO mice; useful for TLC and Anniv
