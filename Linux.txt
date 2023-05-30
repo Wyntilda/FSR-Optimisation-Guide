@@ -8,4 +8,4 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 
 You probably want to use a virtual desktop for windowed gayming.
 yay protontricks
-Run protontricks. Select game. Ignore errors, you're fine. Choose default thingy. Change settings. vd=1024x768 (or your res of choice)
+Run protontricks. Select game. Ignore errors, you're fine. Select default wineprefix. Change settings. vd=1024x768 (or your res of choice)
