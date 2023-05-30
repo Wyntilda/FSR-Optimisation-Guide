@@ -1,16 +1,15 @@
 I'm doing testing on Arch Linux with KDE since that's what the cool kids use these days and should provide a familar environment for runners used to Windows.
 I used archinstall and it seems fine. Very easy to use installer.
 Make yourself able to use sudo. Add extra and multilib repos. linux-zen kernel is low-latency. I use XFS for filesystem, personally; ext4 is fine, too.
-I'm not gonna make this a guide on how to install Arch or any Linux OS; there are plenty of guides that do that well already.
-Keep in mind how current your hardware is. If your hardware is >3 years old, you've less to worry about. Check for compatibility. Rolling release distros (like Arch) are more updated, but have more updates (do note, however, that these aren't even half as tedious as on Windows).
 
 For the AUR, which provides useful packages for gaming stuff (such as mangohud, protontricks, etc.), I use yay.
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
-You probably want to use a virtual desktop for windowed gayming.
+You probably want to use a virtual desktop for windowed gayming. (You can do this via Lutris or protontricks)
 yay protontricks
 Run protontricks. Select game. Ignore errors, you're fine. Select default wineprefix. Change settings. vd=1024x768
 This seems to work flawlessly. Alt-tabbing is a little weird. Do note that this will lead to an extra frame of latency on KDE.
+
 [Note for aspiring boffins: Wayland compositors such as KDE or gamescope are best used in fullscreen as they generally allow direct scanout. If anyone's coming from Windows 8+ or Windows Vista-7 with DWM enabled, that extra compositing delay is already there and there won't be a noticeable difference. Xorg window managers should in theory run pretty consistently in windowed compared to fullscreen, but MAKE SURE COMPOSITING IS OFF if using Xorg, as it is significantly worse than Wayland's compositing.]
 
 The most relevant versions of Proton to test are 7.0 for hardware compatibility and current stable version (8.0 as of writing) for modernity.
@@ -39,10 +38,7 @@ Proton 7.0-6 -
 DXVK 2.0+ / Proton 8.0+ requires Vulkan 1.3 capable drivers, hardware, and Wine version (you probably don't have to worry about the latter unless you know what you're doing).
 
 
-For recommended distributions, I'm choosing these based on popularity and my personal experience with them. Being able to look up things and find answers is top priority, really. If you're already a Linux user, use what's most comfortable for you.
-Recommended distros:
-Debian - Stable, less updates, consistent performance; may need to backport 6.1 kernel on Debian 11 for recent hardware support.
-Arch - Extremely frequent updates, better hardware support out of the box, AUR can be confusing for new users
-
-
 Lutris notes: 
+Game info: Runner is steam
+Game options: DRM free mode on
+System options: Gamescope > Enabled & Windowed (1024x768), CPU > Restrict number of cores used (1-2)
