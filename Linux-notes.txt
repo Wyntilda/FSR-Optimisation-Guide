@@ -1,0 +1,10 @@
+I'm doing testing on Arch Linux with KDE since that's what the cool kids use these days and should provide a familar environment for runners used to Windows.
+I used archinstall and it seems fine. Very easy to use installer. Make yourself able to use sudo. Add extra and multilib repos.
+I'm not gonna make this a guide on how to install Arch or any Linux OS; there are plenty of guides that do that well already.
+
+For the AUR, which provides useful packages for gaming stuff (such as mangohud, protontricks, etc.), I use yay.
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+You probably want to use a virtual desktop for windowed gayming.
+yay protontricks
+Run protontricks. Select game. Ignore errors, you're fine. Choose default thingy. Change settings. vd=1024x768 (or your res of choice)
