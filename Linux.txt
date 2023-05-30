@@ -21,8 +21,9 @@ TLC
 ========
 
 Stability testing
-Proton 8.0-2 - Seems alright
-Proton 7.0-6 - 2 crashes when interacting with NPCs in childhood
+Proton 8.0-2 - 
+Proton 7.0-6 - 
+Both - Shift + Tab crashes game on KDE Wayland.
 
 Seeing if Proton loads videos and audio on par with Windows (this was an issue with older versions of Wine/Proton). Physique/HL bug is fine, but should be noted.
 Media playback testing:
