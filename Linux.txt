@@ -16,6 +16,10 @@ This seems to work flawlessly. Alt-tabbing is a little weird. Do note that this 
 The most relevant versions of Proton to test are 7.0 for hardware compatibility and current stable version (8.0 as of writing) for modernity.
 Need to figure out best way to run OpenGL for hardware without Vulkan capabilities.
 
+Stability testing
+Proton 8.0-2 - 
+Proton 7.0-6 - 1 weird crash when interacting with Brom
+
 Seeing if Proton loads videos and audio on par with Windows (this was an issue with older versions of Wine/Proton). Physique/HL bug is fine, but should be noted.
 Media playback testing:
 Proton 8.0-2 - PASS
