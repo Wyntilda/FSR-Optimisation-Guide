@@ -1,0 +1,6 @@
+Very WIP, mostly here to remember to update later.
+
+Livesplit can be ran as a server that then displays graphically on another machine. Useful for multi-system setups.
+
+Input viewers:
+SKeys
