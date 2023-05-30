@@ -1,38 +1,39 @@
 The following is a *very rough draft* of good hardware that you can find in various used markets. I tend to focus on the best of an architecture or generation, or parts with unique quirks and features that make them worthwhile for specific purposes. I'll add more in-depth notes later.
 
 **CPU**
-i7-5775C (Broadwell)
-i7-3700K (Ivy Bridge)
-i7-4960X (Ivy Bridge)
-i7-2600K (Sandy Bridge)
+i7-5775C (Broadwell) - Excellent 0.1% lows due to L4 cache
+i7-3700K (Ivy Bridge) - Exceptionally low cache hit latency
+i7-4960X (Ivy Bridge E)
+i7-2600K (Sandy Bridge) - Reasonable price, overclocks like a champ if you're into that
 E-cores will bring no benefit
 Avoid chiplets
 Ryzen is doing better as of Zen 3 but still has very poor RAM latency
 
 **GPU**
-GTX 285 (Tesla)
-HD 7970 (GCN 1)
-R9 380X
+GTX 285 (Tesla) - Supports Windows XP; not recommended for Anniversary
+HD 7970 (GCN 1) - Supports Windows XP
+R9 380X - Last high-end AMD card with analogue out
 RX 590
-GTX 980 Ti* (Maxwell)
+GTX 980 Ti* (Maxwell) - Analogue out; can be forced to work on Windows XP
 GTX 1080 Ti* (Pascal)
 Any RDNA 1-2 card
-6800 GS AGP (Curie)
-7800 GS AGP (Curie)
-7950 GT (Curie)
-Intel iGPU from 2015 onwards
-AMD iGPU from 2022 onwards
+6800 GS AGP (Curie) - For old builds / TLC only
+7800 GS AGP (Curie) - For old builds / TLC only
+7950 GT (Curie) - Performance won't be exceptional
+Intel iGPU from 2015 onwards (TLC only)
+AMD iGPU from 2022 onwards (TLC onlyish)
 
 * = suffers from glow flicker bug
 
 **Motherboard**
 Z77 = Asus Z77 Sabertooth
-Z97 = ASRock Z97M OC Formula
+Z97 = ASRock Z97(M) OC Formula
 Z97 = Asus Maximus VII Impact
-Avoid 4 DIMM boards unless it's T topology (often designed for HEDT boards)
+Avoid 4 DIMM boards for DDR4-DDR5 unless it's T topology (often designed for HEDT boards)
 
 **Storage**
-to do
+MX500 is cheap and good for SATA
+SK Hynix P31
 
 **PSU**
 Corsair AX850
@@ -40,12 +41,14 @@ Corsair RM850x
 Corsair HX1200
 Corsair RM550
 I promise I'm not shilling Corsair, these are just good; need more details here
+HEADROOM IS GOOD. YOUR PSU IS AT ITS MOST EFFICIENT AT 1/3 LOAD. TRANSIENTS (short power spikes well above standard power consumption) HAPPEN.
 
 **Mice**
+MMO mice; useful for TLC and Anniv
 Razer Naga Trinity
-Logitech G600 - Higher click latency than Naga Trinity, less insufferable software
+Logitech G600 - Higher click latency than Naga Trinity, less insufferable software; can be modded to be lighter weight than Naga Trinity
 
 **Keyboard**
-n-key rollover is very important
+n-key rollover is very important, arguably the most important factor when choosing kb
 AVOID 8KHZ KEYBOARDS (@CORSAIR) - you lose more than you gain
 Wooting Two HE - analogue
