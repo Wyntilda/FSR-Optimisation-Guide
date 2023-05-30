@@ -45,3 +45,10 @@ System options: Gamescope > Enabled & Windowed (1024x768), CPU > Restrict number
 App ID is 204030 for TLC
 
 Lutris with Wine runner seems weirdly difficult to configure and run properly, along with local (non-Steam) Proton. Until I figure out how to do this smoothly and accessibly, I think just launching through Steam is the way to go. The most reliable way to run TLC through Lutris is to run it through Steam, with DRM free mode off, which doesn't really do us much good.
+
+
+
+LiveSplit notes for future self
+========
+
+I imagine the best way to handle LiveSplit would be to find a way to run it as a server on Linux and use LiveSplit One (web app) or a separate machine running Windows to handle LiveSplit. LiveSplit on Linux seems to be problematic at best, from everything I've read. Run timers on Linux are a bleak scene, with abandoned projects and no autosplitting support, so a jank LS setup is our best bet for now.
