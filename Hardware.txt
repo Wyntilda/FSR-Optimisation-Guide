@@ -2,7 +2,7 @@ The following is a *very rough draft* of good hardware that you can find in vari
 
 **CPU**
 i7-5775C (Broadwell) - Excellent 0.1% lows due to L4 cache
-i7-3700K (Ivy Bridge) - Exceptionally low cache hit latency
+i7-3770K (Ivy Bridge) - Exceptionally low cache hit latency
 i7-4960X (Ivy Bridge E)
 i7-2600K (Sandy Bridge) - Reasonable price, overclocks like a champ if you're into that
 E-cores will bring no benefit
