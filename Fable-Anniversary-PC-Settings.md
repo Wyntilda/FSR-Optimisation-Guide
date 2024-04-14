@@ -11,6 +11,8 @@ Anisotropic Filtering: Low<br>
 <br>
 UI/HUD is fixed to 16:9. Game was designed with a target resolution of 1280x720.<br>
 <br>
+FPS should always be capped to a consistently achievable framerate for smooth performance. https://boringboredom.github.io/tools/fpscapcalculator<br>
+<br>
 Need to do ini twix here.<br>
 <br>
 The FXAA disabler is a mod that requires an additional file overriding other files and -NOSEEKFREELOADING, therefore shouldn't be used in speedruns. There may be other means of disabling FXAA.
